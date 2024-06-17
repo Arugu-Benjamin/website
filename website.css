@@ -2,6 +2,9 @@
   background-color: rgb(49, 77, 66);
   color: white;
  height: 650px;
+ font-family: "Niramit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .menu{
@@ -21,11 +24,21 @@ ul{
   font-size: 30pt;
 }
 li a{
-  color: white;
+  color: rgb(139, 167, 156);
   text-decoration: none;
   margin-left: 40pt;
   padding: 10px;
   font-size: 20px;
+}
+a:active{
+border-left: 20px;
+color: rgb(139, 167, 156);
+}
+
+a:hover{
+  color: white;
+  border-left: 20px;
+  border-bottom: solid 7px rgb(252, 185, 1);
 }
 
 .fa-user{
@@ -39,15 +52,25 @@ li a{
   display: flex;
 }
 
+.menutext p{
+  color: rgb(139, 167, 156);
+}
 .menutext{
   width: 400px;
   margin-left: 200px;
   margin-right: 150px;
+  font-family: "PT Sans Caption", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .menutext h4{
   font-size: 50px;
   margin-bottom: 15px;
+    font-family: "Niramit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
 }
 
 .shop{
@@ -83,6 +106,9 @@ left: 1400px;
 .middle{
 height: 650px;
 display: flex;
+font-family: "Niramit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .middle1{
   width: 350px;
@@ -168,6 +194,7 @@ margin-bottom: 3px;
   display: flex;
   margin-left: 100px;
   margin-top: 250px;
+  font-family: "Niramit", sans-serif;
 }
 
 .choicetext{
@@ -176,6 +203,7 @@ margin-bottom: 3px;
 
 .choicetext h4{
 font-size: 30px;
+
 }
 
 .choiceimage img{
@@ -194,7 +222,7 @@ font-size: 30px;
 }
 
 .choicemain{
-  margin-top: 100px;
+  margin-top: 70px;
   display: flex;
 }
 
@@ -208,12 +236,15 @@ font-size: 30px;
 .helptext{
   width: 500px;
   margin-left: 200px;
+  font-family: "Niramit", sans-serif;
+  
 }
 
 .helpimage{
   width: 800px;
   margin-left: 200px;
   position: relative;
+  
 }
 .grid1{
   width: 500px;
@@ -243,6 +274,7 @@ font-size: 30px;
 }
 .helping{
   display: flex;
+ 
 }
 
 .helpright{
@@ -254,6 +286,7 @@ font-size: 30px;
 
 .helptext p{
   text-align: left;
+
 }
 
 .helptext button{
@@ -269,6 +302,7 @@ margin-top: 10px;
 .products{
   margin-top: 200px;
   display: flex;
+  font-family: "Niramit", sans-serif;
 }
 .product1{
   display: flex;
@@ -304,6 +338,7 @@ margin-top: 10px;
 .testimoniel{
   text-align: center;
   margin-top: 100px;
+  font-family: "Niramit", sans-serif;
 }
 
 .testimoniel h3{
@@ -376,6 +411,7 @@ margin-top: 10px;
   margin-top: 30px;
   margin-left: 200px;
   color: rgb(49, 77, 66);
+  font-family: "Niramit", sans-serif;
 }
 
 .contacttext{
