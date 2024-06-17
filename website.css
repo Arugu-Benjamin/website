@@ -537,15 +537,8 @@ margin-top: 10px;
   margin-left: 150px;
 }
 
-
-@media screen and (max-width: 600){
-  .left, .main, .right {
-    width: 40%; /* The width is 100%, when the viewport is 800px or smaller */
-  }
-}
-
 @media screen and (max-width: 800px) {
   .left, .main, .right {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    width:25%; /* The width is 100%, when the viewport is 800px or smaller */
   }
 }
