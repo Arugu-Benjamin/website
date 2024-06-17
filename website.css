@@ -540,7 +540,7 @@ margin-top: 10px;
 
 @media screen and (max-width: 600){
   .left, .main, .right {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    width: 40%; /* The width is 100%, when the viewport is 800px or smaller */
   }
 }
 
